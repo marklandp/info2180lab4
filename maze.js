@@ -23,7 +23,7 @@ $(function(){
         if(start){
             lost = true;
             $("#status").text("You lose! :'-(");
-            $(".boundary").addClass("youlose");
+            $("#maze div.boundary").addClass("youlose");
         }
     });
     $("#maze").mouseleave(function(){
