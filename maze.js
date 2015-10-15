@@ -30,7 +30,7 @@ $(function(){
         if(start && !win){
             lost = true;
             $("#status").text("You lose! :'-(");
-            $(".boundary").addClass("youlose");    
+            $("#maze div.boundary").addClass("youlose");    
         }
     });
 });
